@@ -2,11 +2,11 @@ const prompt = require('prompt-sync')()
 
 function main(){
     const nota1 = Number(prompt('Digite a primeira nota: '))
-    const peso1 = 2.0
+    const peso1 = 0.2
     const nota2 = Number(prompt('Digite a segunda nota: '))
-    const peso2 = 3.0
+    const peso2 = 0.3
     const atividade = Number(prompt('Digite a nota das atividades: '))
-    const peso3 = 1.0
+    const peso3 = 0.1
 
     const soma_nota = (nota1 * peso1)+(nota2*peso2)+(atividade*peso3)
     const soma_peso = (peso1 + peso2 + peso3)
