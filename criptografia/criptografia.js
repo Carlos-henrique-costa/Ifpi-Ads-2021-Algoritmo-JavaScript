@@ -1,7 +1,7 @@
-const prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')()
 
 function main() {
-    const palavra = prompt('digite uma palavra: ');
+    const palavra = prompt('digite uma palavra: ')
 
     const saida1 = primeira_criptografia(palavra)
     console.log(saida1)
