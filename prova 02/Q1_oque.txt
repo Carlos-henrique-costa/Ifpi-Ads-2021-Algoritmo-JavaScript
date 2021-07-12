@@ -1,0 +1,18 @@
+1. (q1_oque.txt) O que é, e para que é?
+a. Pensamento Computacional
+
+R = É um processo de 4 partes(Decomposição, Abstração, Reconhecimento de padrões e Algoritmo) que visa em formular
+ um problema e chegar na solução de forma simples e efetiva.
+
+b. Algoritmo
+
+R = Criar passos e soluções para chegar ao objetivo do problema.
+
+c. Programação
+
+R = É um processo de transformação de um algoritmo para linguagem de programação.
+
+d. Modularização com uso de Funções
+
+R = É um método usado para criar e falicitar o uso de uma ou mais funções pela pessoal ou maquina, assim 
+agilizando algumas resolucões de problemas especifcos.
