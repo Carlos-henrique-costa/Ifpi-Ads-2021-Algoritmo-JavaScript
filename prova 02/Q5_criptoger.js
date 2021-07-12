@@ -5,7 +5,7 @@ function main() {
 
     const criptoger = consoante_avancar(frase)
 
-    //console.log(truncar_frase(frase))
+    console.log(truncar_frase(frase))
     //console.log(palavra_invertida(frase))
     //console.log(vogais_para_numeros(frase))
     //console.log(numeros_para_caracteres(frase))
@@ -17,11 +17,11 @@ function truncar_frase(letra_a){
     let frase_truncada = ['' , '']
 
     for(let i = 0; i < Math.floor(letra_a.length/2); i++){
-        frase_truncada[0] += letra_a[i]
+        frase_truncada[0] = frase_truncada[0] + letra_a[i]
     }
 
     for(let i = Math.floor(letra_a.length/2); i < letra_a.length; i++){
-        frase_truncada[1] += letra_a[i]
+        frase_truncada[1] = frase_truncada [1] + letra_a[i]
     }
 
     return frase_truncada
